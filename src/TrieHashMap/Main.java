@@ -6,6 +6,13 @@ import java.util.Map;
 public class Main {
     public static void main(String[] args) {
 
+
+        Trie trie = new Trie();
+
+        trie.insert("Megatron");
+
+        System.out.println(trie);
+
     }
 }
 
@@ -18,7 +25,14 @@ class Trie {
         public TrieNode() {
             map = new HashMap<>();
             isEndOfTheWord = false;
+        }
 
+        @Override
+        public String toString() {
+            return "TrieNode{" +
+                    "map=" + map +
+                    ", isEndOfTheWord=" + isEndOfTheWord +
+                    '}';
         }
     }
 
@@ -58,4 +72,10 @@ class Trie {
 
     }
 
+    @Override
+    public String toString() {
+        return "Trie{" +
+                "root=" + root +
+                '}';
+    }
 }
