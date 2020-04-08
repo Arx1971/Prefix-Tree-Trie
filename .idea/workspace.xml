@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bb8de5cb-d7d1-402a-b434-43f2e308b71c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Prefix-Tree-Trie/TrieHashMap/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Prefix-Tree-Trie/TrieHashMap/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Prefix-Tree-Trie/TrieHashMap/Trie$TrieNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Prefix-Tree-Trie/TrieHashMap/Trie$TrieNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Prefix-Tree-Trie/TrieHashMap/Trie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Prefix-Tree-Trie/TrieHashMap/Trie.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TrieHashMap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrieHashMap/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586300635979</updated>
       <workItem from="1586300637836" duration="1928000" />
-      <workItem from="1586303090295" duration="552000" />
+      <workItem from="1586303090295" duration="1480000" />
     </task>
     <servers />
   </component>
@@ -84,5 +87,21 @@
       <screen x="1920" y="20" width="1920" height="1080" />
     </state>
     <state x="2658" y="263" width="478" height="592" key="#com.intellij.ide.util.MemberChooser/45.27.1875.1053/1920.20.1920.1080@1920.20.1920.1080" timestamp="1586303576885" />
+    <state width="559" height="933" key="GridCell.Tab.0.bottom" timestamp="1586308919343">
+      <screen x="1920" y="20" width="1920" height="1080" />
+    </state>
+    <state width="559" height="933" key="GridCell.Tab.0.bottom/45.27.1875.1053/1920.20.1920.1080@1920.20.1920.1080" timestamp="1586308919343" />
+    <state width="559" height="933" key="GridCell.Tab.0.center" timestamp="1586308919343">
+      <screen x="1920" y="20" width="1920" height="1080" />
+    </state>
+    <state width="559" height="933" key="GridCell.Tab.0.center/45.27.1875.1053/1920.20.1920.1080@1920.20.1920.1080" timestamp="1586308919343" />
+    <state width="559" height="933" key="GridCell.Tab.0.left" timestamp="1586308919343">
+      <screen x="1920" y="20" width="1920" height="1080" />
+    </state>
+    <state width="559" height="933" key="GridCell.Tab.0.left/45.27.1875.1053/1920.20.1920.1080@1920.20.1920.1080" timestamp="1586308919343" />
+    <state width="559" height="933" key="GridCell.Tab.0.right" timestamp="1586308919343">
+      <screen x="1920" y="20" width="1920" height="1080" />
+    </state>
+    <state width="559" height="933" key="GridCell.Tab.0.right/45.27.1875.1053/1920.20.1920.1080@1920.20.1920.1080" timestamp="1586308919343" />
   </component>
 </project>

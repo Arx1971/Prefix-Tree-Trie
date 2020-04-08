@@ -11,7 +11,7 @@ public class Main {
 
         trie.insert("Megatron");
 
-        System.out.println(trie);
+        System.out.println(trie.searchForPrefix("Mega"));
 
     }
 }
@@ -57,19 +57,29 @@ class Trie {
         current.isEndOfTheWord = true;
     }
 
-    public boolean search(String word) {
+    public TrieNode searchForNode(String word) {
 
         TrieNode current = root;
 
         for (int i = 0; i < word.length(); i++) {
             TrieNode node = current.map.get(word.charAt(i));
-            if (node == null)
-                return false;
+            if (node == null) return null;
             current = node;
         }
 
-        return current.isEndOfTheWord;
+        return current;
 
+    }
+
+    public boolean searchForPrefix(String word) {
+        TrieNode node = searchForNode(word);
+        if (node == null) return false;
+        return true;
+    }
+
+    public boolean search(String word) {
+        TrieNode node = searchForNode(word);
+        return node != null && node.isEndOfTheWord;
     }
 
     @Override
